@@ -1,0 +1,108 @@
+<HTML>
+<HEAD>
+<TITLE>Index</TITLE>
+<BODY bgcolor='blue'>
+<Style type='text/css'> 
+#ID2{
+position: absolute;
+right:40px;
+bottom:60px;
+background-color: red;
+border-radius: 20px;
+height:100px;
+width:150px;
+}
+#ID2:hover{
+background-color: yellow;
+height:100px;
+width:150px;
+color: #3700FF;
+}
+
+#right_tri {
+	position: absolute;
+    right:50px;
+    bottom:70px;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-left: 80px solid blue;
+	border-bottom: 40px solid transparent;
+	z-index: 20;
+}
+
+
+#arrow_stick {
+	width: 100px;
+	height: 25px;
+	background: red;
+	background-color: blue;
+	position: absolute;
+	right:80px;
+	bottom:97px;
+	z-index: 20;
+}
+#ID1 {
+position: absolute;
+font-size:50px;
+top:100px;
+left:100px;
+font-family:"Comic Sans MS";
+color: #32BFFF;
+}
+#IMG1 {
+position:absolute;
+left:150px;
+top:210px;
+height:350px;
+width:600px;
+z-index: 5;
+border-radius: 20px
+}
+#T1 {
+position: absolute;
+top: 1200px;
+left: 600px;
+}
+#T2 {
+position: relative;
+top: 1192px;
+left: -400px;
+}
+#T3 {
+position: relative;
+top: 1170px;
+left: 300px;
+}
+
+
+</Style>
+</HEAD>
+<BODY bgcolor='#FFFFFF'>
+
+
+<BR><BR>
+<A href='Information%20Page%201.html'>
+<DIV id='ID2' onmouseover="document.getElementById('ID2').style.backgroundColor='yellow';document.getElementById('right_tri').style.borderLeft = '80px solid red';document.getElementById('arrow_stick').style.backgroundColor='red';" onmouseout="document.getElementById('ID2').style.backgroundColor='red';document.getElementById('right_tri').style.borderLeft = '80px solid blue';document.getElementById('arrow_stick').style.backgroundColor='blue';"></DIV>
+
+<DIV id='curvedarrow'></DIV>
+<DIV id='arrow' onmouseover="document.getElementById('ID2').style.backgroundColor='yellow';document.getElementById('right_tri').style.borderLeft = '80px solid red';document.getElementById('arrow_stick').style.backgroundColor='red';">
+	<DIV id='right_tri'></DIV>
+	<DIV id='arrow_stick'></DIV>
+</DIV>
+</A>
+
+<FONT id="ID1">Video Game Anger Management</FONT>
+<IMG src='just-stop-nerd-raging-15624064.jpg' id='IMG1'></IMG>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
